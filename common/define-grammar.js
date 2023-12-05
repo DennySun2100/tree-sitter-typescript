@@ -1,5 +1,5 @@
 module.exports = function defineGrammar(dialect) {
-  return grammar(require('tree-sitter-javascript/grammar'), {
+  return grammar(require('../../tree-sitter-javascript/grammar'), {
     name: dialect,
 
     externals: ($, previous) => previous.concat([
